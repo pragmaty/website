@@ -9,8 +9,10 @@ layout: default
 
 <ul>
   {% for post in site.pages reversed %}
+  {% if post.title %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
+  {% endif %}
   {% endfor %}
 </ul>
