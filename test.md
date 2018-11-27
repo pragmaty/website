@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # This is test
 
