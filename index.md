@@ -8,7 +8,7 @@ layout: page
 [to jest test]({{ "/test" | relative_url }})
 
 <ul>
-  {% for post in site.posts reversed %}
+  {% for post in site.pages reversed %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
