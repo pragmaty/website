@@ -5,7 +5,7 @@
 layout: default
 ---
 [welcome]({{ "/welcome" | relative_url }})
-[to jest test]({{ "/test" | relative_url }})
+[about]({{ "/about" | relative_url }})
 
 <ul>
   {% for post in site.pages reversed %}
